@@ -4,26 +4,36 @@ import { Container, Navbar, Nav } from 'react-bootstrap'
 
 const Header = () => {
   return (
-    <header style={{ position: 'absolute', width: '100%' }}>
-      <Navbar className='bg-transparent' expand='lg' collapseOnSelect>
+    <header style={{ position: 'fixed', width: '100%', zIndex: '1' }}>
+      <Navbar className='bg-light py-2' expand='lg' collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
-            <Navbar.Brand>Udosinachi</Navbar.Brand>
+            <Navbar.Brand>
+              <h2 style={{ fontSize: '24px' }}>UDOSINACHI</h2>
+            </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ml-auto'>
               <LinkContainer to='/'>
-                <Nav.Link>Home</Nav.Link>
+                <Nav.Link>
+                  <p style={{ fontSize: '16px' }}>Home</p>
+                </Nav.Link>
               </LinkContainer>
               <LinkContainer to='/about'>
-                <Nav.Link>About</Nav.Link>
+                <Nav.Link>
+                  <p style={{ fontSize: '16px' }}>About</p>
+                </Nav.Link>
               </LinkContainer>
               <LinkContainer to='/contact'>
-                <Nav.Link>Contact</Nav.Link>
+                <Nav.Link>
+                  <p style={{ fontSize: '16px' }}>Contact</p>
+                </Nav.Link>
               </LinkContainer>
               <LinkContainer to='/resume'>
-                <Nav.Link>Resume</Nav.Link>
+                <Nav.Link>
+                  <p style={{ fontSize: '16px' }}>Resume</p>
+                </Nav.Link>
               </LinkContainer>
             </Nav>
           </Navbar.Collapse>

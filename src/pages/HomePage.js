@@ -14,6 +14,8 @@ const HomePage = () => {
           </Container>
         </Col>
       </Row>
+      <br />
+      <br />
       <Portfolio />
     </>
   )

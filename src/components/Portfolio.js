@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, Figure, Col, Row } from 'react-bootstrap'
+import { Container, Card, Col, Row } from 'react-bootstrap'
+import PortfolioData from '../PortfolioData'
 
 const Portfolio = () => {
   return (
@@ -7,18 +8,24 @@ const Portfolio = () => {
       <Container>
         <h1 className='text-center py-3'>My Porfolio</h1>
         <Row>
-          <Col>
-            <Figure>
-              <Figure.Image
-                width={171}
-                height={180}
-                alt='171x180'
-                src='/images/h.jpg'
-                variant='top'
-              />
-              <Figure.Caption>gdhd jsdkksd ksckks jsxjk</Figure.Caption>
-            </Figure>
-          </Col>
+          {PortfolioData.map((port) => (
+            <Col sm={12} md={6} lg={6} xl={4}>
+              <Card className='my-3 p-3 rounded'>
+                <a href='#'>
+                  <Card.Img src={port.image} variant='top' />
+                </a>
+
+                <Card.Body>
+                  <a href='#'>
+                    <Card.Title>UdoStore</Card.Title>
+                  </a>
+                </Card.Body>
+                <Card.Text>
+                  Created with react, react bootstrap and so on
+                </Card.Text>
+              </Card>
+            </Col>
+          ))}
         </Row>
       </Container>
     </>
