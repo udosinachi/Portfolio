@@ -21,13 +21,16 @@ const Portfolio = () => {
                   </a>
                 </Card.Body>
                 <Card.Text>
-                  Created with react, react bootstrap and so on
+                  {/*<i class='fab fa-git-alt'></i>*/}Created with react, react
+                  bootstrap and so on
                 </Card.Text>
               </Card>
             </Col>
           ))}
         </Row>
       </Container>
+      <br />
+      <br />
     </>
   )
 }

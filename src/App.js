@@ -4,6 +4,7 @@ import {} from 'react-bootstrap'
 import Footer from './components/Footer'
 import HomePage from './pages/HomePage'
 import Header from './components/Header'
+import SocialMedia from './components/SocialMedia'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <main>
         <Route path='/' component={HomePage} exact />
       </main>
+      <SocialMedia />
       <Footer />
     </Router>
   )
