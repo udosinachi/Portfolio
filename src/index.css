@@ -1,3 +1,10 @@
 main {
   min-height: 80vh;
+  overflow: hidden;
+}
+.home-header {
+  background-image: url('/images/h.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
 }
