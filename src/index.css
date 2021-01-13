@@ -12,3 +12,18 @@ i {
   font-size: 30px;
   width: 20%;
 }
+.name {
+  font-size: 40px;
+}
+@media (max-width: 475px) {
+  .name {
+    font-size: 30px;
+  }
+}
+.p {
+  font-size: 18px;
+}
+.nav {
+  background: #e7e7e7;
+  opacity: 0.9;
+}

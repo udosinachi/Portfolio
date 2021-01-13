@@ -8,9 +8,11 @@ const HomePage = () => {
       <Row className='home-header'>
         <Col className='text-center m-auto'>
           <Container>
-            <p>HELLO, MY NAME IS</p>
-            <h1>UDOSINACHI OFOEGBU</h1>
-            <p>WEB DESIGNER AND DEVELOPER</p>
+            <p className='p'>HELLO, MY NAME IS</p>
+            <h1 className='name'>
+              <strong>UDOSINACHI OFOEGBU</strong>
+            </h1>
+            <p className='p'>WEB DESIGNER AND DEVELOPER</p>
           </Container>
         </Col>
       </Row>

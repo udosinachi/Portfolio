@@ -7,14 +7,16 @@ const ContactPage = () => {
       <Row className='home-header'>
         <Col className='text-center m-auto'>
           <Container>
-            <p>NEED A WEBSITE?</p>
-            <h1>CONTACT ME</h1>
+            <p className='p'>NEED A WEBSITE?</p>
+            <h2 className='name'>
+              <strong>CONTACT ME</strong>
+            </h2>
           </Container>
         </Col>
       </Row>
 
       <Container>
-        <h1 className='text-center m-auto py-5'>CONTACT FORM</h1>
+        <h2 className='name text-center m-auto py-5'>CONTACT FORM</h2>
         <Row>
           <Col md={9} className='m-auto'>
             <Form>

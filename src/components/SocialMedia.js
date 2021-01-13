@@ -11,7 +11,7 @@ const SocialMedia = () => {
             <i className='fab fa-linkedin my-3 p-3'></i>
             <i className='fab fa-twitter my-3 p-3'></i>
             <i className='fab fa-whatsapp my-3 p-3'></i>
-            <i className='fab fa-whatsapp my-3 p-3'></i>
+            <i className='fab fa-google my-3 p-3'></i>
           </Col>
         </Row>
       </Container>
