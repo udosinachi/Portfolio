@@ -2,14 +2,14 @@ import React from 'react'
 import { Container, Card, Col, Row } from 'react-bootstrap'
 import PortfolioData from '../PortfolioData'
 
-const Portfolio = () => {
+const Portfolio = (props) => {
   return (
     <>
       <Container>
         <h1 className='text-center py-3'>My Porfolio</h1>
         <Row>
           {PortfolioData.map((port) => (
-            <Col sm={12} md={6} lg={6} xl={4}>
+            <Col sm={12} md={6} lg={6} xl={4} key={port._id}>
               <Card className='my-3 p-3 rounded'>
                 <a href='#'>
                   <Card.Img src={port.image} variant='top' />

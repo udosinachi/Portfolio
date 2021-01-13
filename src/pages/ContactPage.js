@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Form, Button } from 'react-bootstrap'
+import { Container, Row, Col, Form, Button, Badge } from 'react-bootstrap'
 
 const ContactPage = () => {
   return (
@@ -16,24 +16,33 @@ const ContactPage = () => {
       <Container>
         <h1 className='text-center m-auto py-5'>CONTACT FORM</h1>
         <Row>
-          <Col md={10} className='m-auto'>
+          <Col md={9} className='m-auto'>
             <Form>
               <Form.Group controlId='formBasicName'>
-                <Form.Control type='text' placeholder='Enter Your Name' />
+                <Form.Control
+                  type='text'
+                  size='lg'
+                  placeholder='Enter Your Name'
+                />
               </Form.Group>
 
               <Form.Group controlId='formBasicEmail'>
-                <Form.Control type='email' placeholder='Enter Your Email' />
+                <Form.Control
+                  type='email'
+                  size='lg'
+                  placeholder='Enter Your Email'
+                />
               </Form.Group>
 
               <Form.Group controlId='formBasicSubject'>
-                <Form.Control type='text' placeholder='Subject' />
+                <Form.Control type='text' size='lg' placeholder='Subject' />
               </Form.Group>
 
               <Form.Group controlId='exampleForm.ControlTextarea1'>
                 <Form.Control
                   as='textarea'
                   rows={7}
+                  size='lg'
                   placeholder='Your Message'
                 />
               </Form.Group>
@@ -48,10 +57,11 @@ const ContactPage = () => {
       <Container>
         <Row className='py-5'>
           <Col className='text-center m-auto'>
-            <p>my email is udoskjfn jfjsdndsg jndfgnzdkgn</p>
-            <p>my email is udoskjfn jfjsdndsg jndfgnzdkgn</p>
-            <p>my email is udoskjfn jfjsdndsg jndfgnzdkgn</p>
-            <p>my email is udoskjfn jfjsdndsg jndfgnzdkgn</p>
+            <h3>
+              <Badge variant='secondary'>
+                Use the icons below to contact me
+              </Badge>
+            </h3>
           </Col>
         </Row>
       </Container>
