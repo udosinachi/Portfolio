@@ -30,11 +30,6 @@ const Header = () => {
                   <p style={{ fontSize: '16px', margin: 'auto' }}>Contact</p>
                 </Nav.Link>
               </LinkContainer>
-              <LinkContainer to='/resume'>
-                <Nav.Link>
-                  <p style={{ fontSize: '16px', margin: 'auto' }}>Resume</p>
-                </Nav.Link>
-              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Container>

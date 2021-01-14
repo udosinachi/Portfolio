@@ -11,18 +11,18 @@ const Portfolio = (props) => {
           {PortfolioData.map((port) => (
             <Col sm={12} md={6} lg={6} xl={4} key={port._id}>
               <Card className='my-3 p-3 rounded'>
-                <a href='#'>
+                <a href={port.link} target='_blank' rel='noopener noreferrer'>
                   <Card.Img src={port.image} variant='top' />
                 </a>
 
                 <Card.Body>
-                  <a href='#'>
-                    <Card.Title>UdoStore</Card.Title>
+                  <a href={port.link} target='_blank' rel='noopener noreferrer'>
+                    <Card.Title>{port.name}</Card.Title>
                   </a>
                 </Card.Body>
                 <Card.Text>
-                  {/*<i class='fab fa-git-alt'></i>*/}Created with react, react
-                  bootstrap and so on
+                  <i className='fab fa-git-alt'></i>
+                  {port.description}
                 </Card.Text>
               </Card>
             </Col>

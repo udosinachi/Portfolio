@@ -48,7 +48,13 @@ const ContactPage = () => {
                   placeholder='Your Message'
                 />
               </Form.Group>
-              <Button variant='dark' type='submit' size='lg' block>
+              <Button
+                style={{ fontSize: '16px' }}
+                variant='dark'
+                type='submit'
+                size='lg'
+                block
+              >
                 Submit
               </Button>
             </Form>

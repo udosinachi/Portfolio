@@ -8,7 +8,13 @@ main {
   background-size: cover;
   height: 70vh;
 }
-i {
+.about-header {
+  background-image: url('/images/pic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+.i {
   font-size: 30px;
   width: 20%;
 }
@@ -26,4 +32,8 @@ i {
 .nav {
   background: #e7e7e7;
   opacity: 0.9;
+}
+a {
+  text-decoration: none;
+  color: #4a4a4a;
 }
