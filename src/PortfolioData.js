@@ -2,8 +2,8 @@ const PortfolioData = [
   {
     _id: '1',
     name: 'UdoStore',
-    image: '/images/h.jpg',
-    description: 'MERN Stack Project',
+    image: '/images/udostore.PNG',
+    description: 'A MERN Stack Project',
     link: 'https://github.com/udosinachi/udostore',
     gitRepo: 'https://github.com/udosinachi/udostore',
   },

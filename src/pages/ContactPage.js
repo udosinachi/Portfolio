@@ -19,7 +19,7 @@ const ContactPage = () => {
         <h2 className='name text-center m-auto py-5'>CONTACT FORM</h2>
         <Row>
           <Col md={9} className='m-auto'>
-            <Form>
+            <Form netlify>
               <Form.Group controlId='formBasicName'>
                 <Form.Control
                   type='text'
