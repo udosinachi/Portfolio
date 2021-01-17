@@ -20,9 +20,17 @@ const Portfolio = (props) => {
                     <Card.Title>{port.name}</Card.Title>
                   </a>
                 </Card.Body>
+                <Card.Text>{port.description}</Card.Text>
                 <Card.Text>
-                  <i className='fab fa-git-alt'></i>
-                  {port.description}
+                  <a
+                    href={port.gitRepo}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <p>
+                      <i className='fab fa-git-alt px-1'></i>Github Repository
+                    </p>
+                  </a>
                 </Card.Text>
               </Card>
             </Col>
