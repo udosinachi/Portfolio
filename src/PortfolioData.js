@@ -4,7 +4,7 @@ const PortfolioData = [
     name: 'UdoStore',
     image: '/images/udostore.PNG',
     description: 'A MERN Stack Project',
-    link: 'https://github.com/udosinachi/udostore',
+    link: 'https://udostore.herokuapp.com/',
     gitRepo: 'https://github.com/udosinachi/udostore',
   },
   {
