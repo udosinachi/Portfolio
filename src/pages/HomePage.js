@@ -6,15 +6,15 @@ import Portfolio from '../components/Portfolio'
 const HomePage = () => {
   return (
     <>
-      <Row className='home-header'>
-        <Col className='text-center m-auto'>
+      <Row className="home-header">
+        <Col className="text-center m-auto">
           <Container>
             <Zoom top>
-              <p className='p'>HELLO, MY NAME IS</p>
-              <h1 className='name'>
+              <p className="p">HELLO, MY NAME IS</p>
+              <h1 className="name">
                 <strong>UDOSINACHI OFOEGBU</strong>
               </h1>
-              <p className='p'>WEB DESIGNER AND DEVELOPER</p>
+              <p className="p">FRONT-END DEVELOPER</p>
             </Zoom>
           </Container>
         </Col>

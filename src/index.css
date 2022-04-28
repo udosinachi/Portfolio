@@ -3,17 +3,35 @@ main {
   overflow: hidden;
 }
 .home-header {
-  background-image: url('/images/h.jpg');
+  background-image: url('/images/b2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
+  height: 80vh;
 }
-.about-header {
+@media (max-width: 500px) {
+  .home-header {
+    height: 70vh;
+  }
+}
+/* .about-header {
   background-image: url('/images/pic.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vh;
+} */
+.about-header {
+  /* border: 3px solid red; */
+  margin-top: 55px;
 }
+.the-img {
+  text-align: center;
+}
+.the-img img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
 .i {
   font-size: 30px;
   width: 20%;
