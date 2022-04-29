@@ -1,6 +1,4 @@
 import React from 'react'
-import Slide from 'react-reveal/Slide'
-import Bounce from 'react-reveal/Bounce'
 import { Container, Row, Col, Form, Button, Badge } from 'react-bootstrap'
 
 const ContactPage = () => {
@@ -9,22 +7,22 @@ const ContactPage = () => {
       <Row className="home-header">
         <Col className="text-center m-auto">
           <Container>
-            <Bounce Top>
+            <>
               <p className="p">NEED A WEBSITE?</p>
               <h2 className="name">
                 <strong>CONTACT ME</strong>
               </h2>
-            </Bounce>
+            </>
           </Container>
         </Col>
       </Row>
 
       <Container>
         <h2 className="name text-center m-auto py-5">CONTACT FORM</h2>
-        <Slide bottom>
+        <>
           <Row>
             <Col md={9} className="m-auto">
-              <Form netlify>
+              <Form name="contact" method="POST" data-netlify="true">
                 <Form.Group controlId="formBasicName">
                   <Form.Control
                     type="text"
@@ -65,7 +63,7 @@ const ContactPage = () => {
               </Form>
             </Col>
           </Row>
-        </Slide>
+        </>
       </Container>
 
       <Container>

@@ -7,15 +7,17 @@ import SocialMedia from './components/SocialMedia'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
+import './bootstrap.min.css'
+import './index.css'
 
 const App = () => {
   return (
     <Router>
       <Header />
       <main>
-        <Route path='/' component={HomePage} exact />
-        <Route path='/about' component={AboutPage} exact />
-        <Route path='/contact' component={ContactPage} exact />
+        <Route path="/" component={HomePage} exact />
+        <Route path="/about" component={AboutPage} exact />
+        <Route path="/contact" component={ContactPage} exact />
       </main>
       <SocialMedia />
       <Footer />

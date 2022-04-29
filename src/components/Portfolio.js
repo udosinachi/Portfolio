@@ -1,13 +1,12 @@
 import React from 'react'
 import { Container, Card, Col, Row } from 'react-bootstrap'
-import Slide from 'react-reveal/Slide'
 import PortfolioData from '../PortfolioData'
 
 const Portfolio = (props) => {
   return (
     <>
       <Container>
-        <Slide bottom>
+        <>
           <h1 className="text-center py-3">My Porfolio</h1>
           <Row>
             {PortfolioData.map((port) => (
@@ -33,16 +32,16 @@ const Portfolio = (props) => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <p>
+                      <span>
                         <i className="fab fa-git-alt px-1"></i>Github Repository
-                      </p>
+                      </span>
                     </a>
                   </Card.Text>
                 </Card>
               </Col>
             ))}
           </Row>
-        </Slide>
+        </>
       </Container>
       <br />
       <br />

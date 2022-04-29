@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import Zoom from 'react-reveal/Zoom'
 import Portfolio from '../components/Portfolio'
 
 const HomePage = () => {
@@ -9,13 +8,13 @@ const HomePage = () => {
       <Row className="home-header">
         <Col className="text-center m-auto">
           <Container>
-            <Zoom top>
+            <>
               <p className="p">HELLO, MY NAME IS</p>
-              <h1 className="name">
+              <h2 className="name">
                 <strong>UDOSINACHI OFOEGBU</strong>
-              </h1>
+              </h2>
               <p className="p">FRONT-END DEVELOPER</p>
-            </Zoom>
+            </>
           </Container>
         </Col>
       </Row>

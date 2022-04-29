@@ -14,15 +14,8 @@ main {
   }
 }
 /* .about-header {
-  background-image: url('/images/pic.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 70vh;
+  border: 3px solid red;
 } */
-.about-header {
-  /* border: 3px solid red; */
-  margin-top: 55px;
-}
 .the-img {
   text-align: center;
 }
