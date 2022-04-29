@@ -22,12 +22,7 @@ const ContactPage = () => {
         <>
           <Row>
             <Col md={9} className="m-auto">
-              <Form
-                name="contact-form"
-                method="POST"
-                data-netlify="true"
-                onSubmit="submit"
-              >
+              <Form name="contact-form" method="POST" data-netlify="true">
                 <input type="hidden" name="form-name" value="contact-form" />
                 <Form.Group controlId="formBasicName">
                   <Form.Control
