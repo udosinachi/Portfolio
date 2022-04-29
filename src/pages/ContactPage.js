@@ -28,7 +28,7 @@ const ContactPage = () => {
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
                 data-netlify-recaptcha="true"
-                action="/thank-you"
+                action="/"
               >
                 <input type="hidden" name="form-name" value="contact-form" />
                 <div hidden>
