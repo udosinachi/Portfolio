@@ -22,12 +22,13 @@ const ContactPage = () => {
         <>
           <Row>
             <Col md={9} className="m-auto">
-              <Form name="contact" method="POST" data-netlify="true">
+              <Form action="POST" data-netlify="true">
                 <Form.Group controlId="formBasicName">
                   <Form.Control
                     type="text"
                     size="lg"
                     placeholder="Enter Your Name"
+                    name="Name"
                   />
                 </Form.Group>
 
@@ -36,11 +37,17 @@ const ContactPage = () => {
                     type="email"
                     size="lg"
                     placeholder="Enter Your Email"
+                    name="Email"
                   />
                 </Form.Group>
 
                 <Form.Group controlId="formBasicSubject">
-                  <Form.Control type="text" size="lg" placeholder="Subject" />
+                  <Form.Control
+                    type="text"
+                    size="lg"
+                    placeholder="Subject"
+                    name="Subject"
+                  />
                 </Form.Group>
 
                 <Form.Group controlId="exampleForm.ControlTextarea1">
@@ -49,8 +56,11 @@ const ContactPage = () => {
                     rows={7}
                     size="lg"
                     placeholder="Your Message"
+                    name="Message"
                   />
                 </Form.Group>
+
+                <div data-netlify-recapta="true"></div>
                 <Button
                   style={{ fontSize: '16px' }}
                   variant="dark"
