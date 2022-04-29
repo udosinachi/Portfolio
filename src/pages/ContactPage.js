@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Form, Button, Badge } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 
 const ContactPage = () => {
   return (
