@@ -22,7 +22,8 @@ const ContactPage = () => {
         <>
           <Row>
             <Col md={9} className="m-auto">
-              <Form action="POST" data-netlify="true">
+              <Form name="contact-form" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact-form" />
                 <Form.Group controlId="formBasicName">
                   <Form.Control
                     type="text"
@@ -59,8 +60,6 @@ const ContactPage = () => {
                     name="Message"
                   />
                 </Form.Group>
-
-                <div data-netlify-recapta="true"></div>
                 <Button
                   style={{ fontSize: '16px' }}
                   variant="dark"
