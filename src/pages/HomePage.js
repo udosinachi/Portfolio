@@ -27,8 +27,16 @@ const HomePage = () => {
         <>
           <Row>
             <Col md={9} className="m-auto">
-              <Form name="contact-form" method="POST" data-netlify="true">
+              <Form
+                name="contact-form"
+                method="POST"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+              >
                 <input type="hidden" name="form-name" value="contact-form" />
+                <div hidden>
+                  <input name="bot-field" />
+                </div>
                 <Form.Group controlId="formBasicName">
                   <Form.Control
                     type="text"
