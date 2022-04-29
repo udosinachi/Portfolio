@@ -29,7 +29,7 @@ const ContactPage = () => {
                     type="text"
                     size="lg"
                     placeholder="Enter Your Name"
-                    name="Name"
+                    name="name"
                   />
                 </Form.Group>
 
@@ -38,7 +38,7 @@ const ContactPage = () => {
                     type="email"
                     size="lg"
                     placeholder="Enter Your Email"
-                    name="Email"
+                    name="email"
                   />
                 </Form.Group>
 
@@ -47,7 +47,7 @@ const ContactPage = () => {
                     type="text"
                     size="lg"
                     placeholder="Subject"
-                    name="Subject"
+                    name="subject"
                   />
                 </Form.Group>
 
@@ -57,7 +57,7 @@ const ContactPage = () => {
                     rows={7}
                     size="lg"
                     placeholder="Your Message"
-                    name="Message"
+                    name="message"
                   />
                 </Form.Group>
                 <Button
