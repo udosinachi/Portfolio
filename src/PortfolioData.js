@@ -28,7 +28,7 @@ const PortfolioData = [
     name: 'The Events',
     image: '/images/events.PNG',
     description: 'Built with React, CSS and Nodejs',
-    link: 'http://udoeventapp.herokuapp.com/',
+    link: 'https://events-udosinachi.vercel.app/',
     gitRepo: 'https://github.com/udosinachi/events',
   },
   {
