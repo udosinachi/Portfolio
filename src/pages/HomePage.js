@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Badge } from 'react-bootstrap'
 import Portfolio from '../components/Portfolio'
 
 const HomePage = () => {
@@ -13,7 +13,7 @@ const HomePage = () => {
               <h2 className="name">
                 <strong>UDOSINACHI OFOEGBU</strong>
               </h2>
-              <p className="p">FRONT-END DEVELOPER</p>
+              <p className="p">SOFTWARE DEVELOPER</p>
             </>
           </Container>
         </Col>
@@ -21,6 +21,18 @@ const HomePage = () => {
       <br />
       <br />
       <Portfolio />
+
+      <Container>
+        <Row className="py-5">
+          <Col className="text-center m-auto">
+            <h3>
+              <Badge variant="secondary">
+                Use the icons below to contact me
+              </Badge>
+            </h3>
+          </Col>
+        </Row>
+      </Container>
     </>
   )
 }
