@@ -14,7 +14,7 @@ const PortfolioData = [
     image: '/images/imma.PNG',
     description: 'My first github collaboration project with Reactjs.',
     link: 'https://pedantic-easley-e837e3.netlify.app/',
-    gitRepo: '',
+    gitRepo: 'https://github.com/Immaculate-Eye-Clinic',
   },
   {
     _id: '3',
